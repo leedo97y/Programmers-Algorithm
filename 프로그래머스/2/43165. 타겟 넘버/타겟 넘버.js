@@ -1,7 +1,7 @@
 function solution(numbers, target) {
     let count = 0;
     
-    let dfs = (index, currSum) => {
+    const dfs = (index, currSum) => {
         if (index === numbers.length) {
             if (currSum === target) {
                 count++;
